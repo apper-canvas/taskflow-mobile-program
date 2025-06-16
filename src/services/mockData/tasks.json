@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Review quarterly financial reports",
+    "category": "Business",
+    "priority": "High",
+    "dueDate": "2024-01-15",
+    "completed": false,
+    "createdAt": "2024-01-10T08:00:00.000Z",
+    "archived": false
+  },
+  {
+    "id": "2",
+    "title": "Prepare presentation for client meeting",
+    "category": "Work",
+    "priority": "High",
+    "dueDate": "2024-01-12",
+    "completed": false,
+    "createdAt": "2024-01-08T09:30:00.000Z",
+    "archived": false
+  },
+  {
+    "id": "3",
+    "title": "Update project documentation",
+    "category": "Work",
+    "priority": "Medium",
+    "dueDate": "2024-01-18",
+    "completed": false,
+    "createdAt": "2024-01-09T14:20:00.000Z",
+    "archived": false
+  },
+  {
+    "id": "4",
+    "title": "Schedule dental appointment",
+    "category": "Personal",
+    "priority": "Low",
+    "dueDate": "2024-01-20",
+    "completed": false,
+    "createdAt": "2024-01-10T16:45:00.000Z",
+    "archived": false
+  },
+  {
+    "id": "5",
+    "title": "Research new marketing strategies",
+    "category": "Business",
+    "priority": "Medium",
+    "dueDate": "2024-01-25",
+    "completed": false,
+    "createdAt": "2024-01-11T10:15:00.000Z",
+    "archived": false
+  },
+  {
+    "id": "6",
+    "title": "Complete online course module",
+    "category": "Learning",
+    "priority": "Medium",
+    "dueDate": "2024-01-22",
+    "completed": true,
+    "createdAt": "2024-01-05T11:00:00.000Z",
+    "archived": true
+  }
+]
