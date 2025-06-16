@@ -171,10 +171,11 @@ const TaskCard = ({
             </div>
             
             <div className="flex items-center gap-1">
-              <AnimatePresence>
+<AnimatePresence>
                 {!showArchived && !isEditing && (
                   <>
                     <motion.div
+                      key="edit-button"
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 0.8 }}
@@ -189,6 +190,7 @@ const TaskCard = ({
                     </motion.div>
                     
                     <motion.div
+                      key="archive-button"
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 0.8 }}
@@ -206,6 +208,7 @@ const TaskCard = ({
                 
                 {showArchived && (
                   <motion.div
+                    key="restore-button"
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.8 }}
@@ -221,6 +224,7 @@ const TaskCard = ({
                 )}
                 
                 <motion.div
+                  key="delete-button"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.8 }}
