@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
-import Header from '@/components/organisms/Header';
 import TaskList from '@/components/organisms/TaskList';
 import TaskForm from '@/components/molecules/TaskForm';
 import CategoryFilter from '@/components/molecules/CategoryFilter';
@@ -119,10 +118,8 @@ const TasksPage = () => {
     setSelectedCategory(category);
   };
 
-  return (
+return (
     <div className="min-h-screen bg-background">
-      <Header onSearch={handleSearch} onQuickAdd={handleQuickAdd} />
-      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Sidebar */}
